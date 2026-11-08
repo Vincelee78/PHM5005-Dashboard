@@ -1,0 +1,8 @@
+# Dependencies for the Streamlit dashboard (NOT the full training notebook).
+# For reliable joblib loading, use the same scikit-learn version as your notebook.
+streamlit>=1.42,<2
+numpy>=1.26,<3
+pandas>=2.0,<3
+scikit-learn>=1.4,<2
+joblib>=1.3,<2
+plotly>=5.20,<7

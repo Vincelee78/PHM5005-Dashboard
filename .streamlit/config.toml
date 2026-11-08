@@ -1,0 +1,9 @@
+# PHM5005 · dark clinical analytics theme.
+# Place this file at PHM5005_Dashboard/.streamlit/config.toml.
+[theme]
+base = "dark"
+primaryColor = "#43D8C5"
+backgroundColor = "#0B1525"
+secondaryBackgroundColor = "#14263D"
+textColor = "#EFF6FF"
+font = "sans serif"
