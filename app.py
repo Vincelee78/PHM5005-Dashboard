@@ -372,7 +372,7 @@ with validation_tab:
             st.caption("This distribution is calculated from the actual stored 2021–2023 predictions. "
                        "These are model estimates, not confirmed diagnoses.")
 
-    st.markdown('<div class="section-title">Robustness & optional comparisons</div>',
+    st.markdown('<div class="section-title">Robustness & comparisons</div>',
                 unsafe_allow_html=True)
     with st.expander("HbA1c ≥5.8% threshold sensitivity analysis", expanded=False):
         tbl = optional_table("sensitivity_hba1c_5_8_weighted_metrics.csv")
@@ -575,8 +575,8 @@ with prediction_tab:
                         participant[required_features])[0, 1])
 
                 first, second = st.columns(2)
-                first.metric("Age-only LR", f"{results[AGE_MODEL]:.1%}")
-                second.metric("Expanded LR", f"{results[FULL_MODEL]:.1%}")
+                first.metric("Age-only Logistic Regression", f"{results[AGE_MODEL]:.1%}")
+                second.metric("Expanded Logistic Regression", f"{results[FULL_MODEL]:.1%}")
 
                 demo_fig = go.Figure()
                 demo_fig.add_bar(x=[100 * results[AGE_MODEL]], y=["Age only"],
