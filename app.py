@@ -20,7 +20,7 @@ import streamlit as st
 # Page and project paths
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title="PHM5005 | HbA1c Temporal Validation",
+    page_title="PHM5005 | Group H | HbA1c Temporal Validation",
     page_icon="🧬",
     layout="wide",
     initial_sidebar_state="collapsed",
