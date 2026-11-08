@@ -461,11 +461,11 @@ with validation_tab:
     st.markdown("### Overall Conclusion")
 
     st.success(
-        "Simple, interpretable Logistic Regression models retained "
-        "moderate discrimination across NHANES cycles. However, "
-        "imperfect calibration highlights the importance of "
-        "evaluating both discrimination and probability reliability "
-        "before considering clinical screening applications."
+        "The Logistic Regression model using age, gender and BMI showed moderate predictive performance "
+        "when tested on the newer NHANES dataset. Although it could distinguish participants with and " 
+        "without elevated HbA1c reasonably well, its predicted probabilities did not always match the " 
+        "actual outcomes. This suggests that though such simple models may be able to work in different time periods, "
+        "further validation and improvement are needed before they can be considered for clinical screening."
     )
 
     # ============================================================
