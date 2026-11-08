@@ -89,7 +89,7 @@ st.markdown(
 st.markdown(
     """
     <div class="hero">
-      <div class="eyebrow">PHM5005 · PRECISION HEALTH & MEDICINE</div>
+      <div class="eyebrow">PHM5005 · GROUP H · PRECISION HEALTH & MEDICINE</div>
       <div class="hero-title">Elevated HbA1c · Temporal ML Validation</div>
       <div class="hero-sub">
         Can simple models trained on NHANES 2017–March 2020 provide reliable
